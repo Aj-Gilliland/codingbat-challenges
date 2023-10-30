@@ -12,7 +12,7 @@ def isDoubles(request: HttpRequest, num1: int, num2: int, num3: int) -> HttpResp
     if num1 == num2 and num2 == num3:
         return HttpResponse(masterNumber)
     if num1 != num2 and num1 != num3:
-        masterNumber += num1
+        masterNumber += num1 
     if num2 != num1 and num2 != num3:
         masterNumber += num2
     if num3 != num2 and num3 != num1:
